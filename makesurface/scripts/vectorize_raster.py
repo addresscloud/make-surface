@@ -174,5 +174,5 @@ def vectorizeRaster(infile, outfile, classes='10', classfile=None, weight=1.0, n
 
 
 if __name__ == "__main__":
-    print('hello Mark :)')
-    vectorizeRaster('/tmp/in2.tif', '/tmp/out2.json', '10', '/tmp/class1.csv', 1.0, None, None, 1, None, None, None, None, None, 'value')
+    print('hello world :)')
+    vectorizeRaster('/data/jbaffr/MegaRaster/out/jbaffr_return_extents_u_river2_comp.tif', '/data/jbaffr/MegaRaster/out/makesurface-vectorize/river2_comp.geojson', '10', '/data/jbaffr/MegaRaster/out/classes.csv', 1.0, None, None, 1, None, None, None, None, None, 'value')
